@@ -1,0 +1,120 @@
+body {
+	font-size:13px;
+}
+
+input[type="text"] {
+	font-size:12px;
+	width: 80px;
+    vertical-align: middle;
+    height: 26px;
+    line-height: 1.5;
+}
+
+input.input-medium {
+	width: 150px;
+}
+
+input.input-large {
+	width: 210px;
+}
+
+label {
+	font-size:12px;
+}
+
+select {
+	font-size:12px;
+	height: 26px;
+	vertical-align: middle;
+}
+
+h3.smaller {
+    font-size: 16px;
+}
+
+.page-content {
+	padding-bottom: 16px;
+}
+
+.footer .footer-inner .footer-content {
+ 	line-height: 12px;
+ }
+ 
+.header {
+	margin-top:0px;
+}
+
+.btn {
+    border-width: 4px;
+    font-size: 13px;
+    line-height: 1.39;
+    padding: 1px 9px;
+}
+
+.table {
+	width: auto;
+}
+
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    padding: 6px 8px;
+}
+
+.table > tbody > tr > th {
+	background-color: #f9f9f9;
+	white-space:nowrap;
+	font-weight:normal;
+}
+
+.pagination {
+	margin-top: 10px;
+}
+
+.has-extends {
+    position: relative;
+}
+
+.has-extends:hover .extends-info {
+    display: block;
+    opacity: 1;
+    position: absolute;
+    width: 450px;
+}
+
+.extends-info {
+    background: white none repeat scroll 0 0;
+    border: 1px solid #888;
+    border-radius: 3px !important;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    display: none;
+    opacity: 0;
+    padding: 0 10px;
+    position: absolute;
+    left: 56px;
+    top: -15px;
+    transition: all 500ms ease 0s;
+    z-index: 99;
+}
+
+.extends-info::before {
+    background: rgba(0, 0, 0, 0);
+    content: "";
+    display: block;
+    height: 16px;
+    overflow: hidden;
+    position: absolute;
+    right: -9px;
+    width: 9px;
+}
+
+.extends-info > h4 {
+	font-size:14px;
+	font-weight:bold;
+}
+
+.modal-header {
+	padding: 10px 15px;
+}
+
+.modal-header .close {
+    font-size: 16px;
+}
